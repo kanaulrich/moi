@@ -1,0 +1,55 @@
+body{
+    font-family: arial,sans-serf;
+    background-image: url(IPHONE11.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;margin: 1px;
+}
+h1,h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-color: black;
+    color:black;
+}
+th,td{
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+input[type="number"]{
+    width: 70px;
+}
+button{
+    margin-right: 1em;
+}
+ul{
+    display: inline-block;
+    margin-right: 1em;
+    color:red;
+}
+ul li ul {
+    display:none;
+    color: brown;
+}
+ul li a{
+    text-decoration-style: none;
+    color:black;
+}
+ul li:hover ul{
+    display:block;
+    color: blue;
+}
+img{
+    width: 200px;
+    height: auto;}
+    value{
+        color: aliceblue;
+    }
+    th,td, marquee{
+        color: cornsilk;
+    }
